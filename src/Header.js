@@ -1,13 +1,13 @@
-const Header = ({title}) => {
+const Header = ({ title }) => {
   return (
     <header>
       <h1>{title}</h1>
     </header>
-  )
-}
+  );
+};
 
 Header.defaultProps = {
-  title: "Kondele Market List"
-}
+  title: "Default Title",
+};
 
 export default Header;
